@@ -1,0 +1,133 @@
+body {
+    font-family: tahoma;
+    letter-spacing: 1px;
+    color: #484848;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+#wrapper {
+    width: 80%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin: 1rem auto;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px 1px #7fffd4;
+}
+#search-books{
+    padding-top: 10px;
+}
+#page-banner {
+    text-align: center;
+    background-color: #bb34faab;
+    padding: 2rem 0px;
+    border-radius: 10px 10px 0px 0;
+    color: white;
+
+}
+
+#page-banner input {
+    padding: 8px 15px;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#book-list,
+#add-book {
+    margin: 30px;
+}
+
+#book-list ul {
+    list-style-type: none;
+
+}
+
+#book-list li {
+    border-left: 5px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#book-list li:hover {
+    border-left: 5px solid #bb34fa;
+    ;
+}
+
+#book-list li .delete {
+    float: right;
+    padding: 7px;
+    border-radius: 3px;
+    background-color: #bb34fa;
+    color: white;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+#book-list li .delete:hover {
+    background-color: #3d3d3d;
+
+}
+
+#add-book {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#add-book input {
+    width: 300px;
+    /* float: left; */
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+#add-book button {
+    width: 100px;
+    float: right;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #c345ff;
+    box-sizing: border-box;
+    background-color: #c345ff;
+}
+
+#add-book #hide {
+    width: 30px;
+}
+
+#add-book label {
+    line-height: 50px;
+}
+#tabbed-content {
+    margin: 30px;
+}
+#tabbed-content li {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#tabbed-content li:hover {
+    background-color: rgb(248, 178, 178);
+
+}
+
+#tabbed-content .panel {
+    
+    padding: 0 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#tabbed-content .panel.active {
+    display: inline;
+}

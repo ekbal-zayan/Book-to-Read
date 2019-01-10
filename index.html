@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Dom ninija Js</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Bookorama</h1>
+                <p>Books for Ninjas </p>
+                <a href="https://www.w3schools.com">Google</a>
+                <form action="" id="search-books">
+                    <input type="text" placeholder="Search books...">
+                </form>
+            </div>
+        </header>
+        <div id="book-list">
+            <h2 class="title">Books to Read</h2>
+            <ul>
+                <li>
+                    <span class="name">Name of the Wind</span>
+                    <button class="delete">delete</button>
+                </li>
+                <li>
+                    <span class="name">The Wise Man's Fear</span>
+                    <button class="delete">delete</button>
+                </li>
+                <li>
+                    <span class="name">Kafka on the Shore</span>
+                    <button class="delete">delete</button>
+                </li>
+                <li>
+                    <span class="name">The Master and the Margarita</span>
+                    <button class="delete">delete</button>
+                </li>
+            </ul>
+        </div>
+        <form id="add-book">
+            <input type="checkbox" id="hide">
+            <label for="hide">Hide All Books</label>
+            <input type="text" placeholder="Add a book...">
+            <button>Add</button>
+        </form>
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li class="active" data-target="#about">About</li>
+                <li data-target="#content">Content</li>
+            </ul>
+            <div class="active panel" id="about">
+                <p>About</p>
+                <p>>>Netur architecto natus soluta atque.</p>
+            </div>
+            <div class="panel" id="content">
+                <p>Content</p>
+                <p>*Netur architecto natus soluta atque.</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
